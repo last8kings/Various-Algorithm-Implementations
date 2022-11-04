@@ -1,3 +1,12 @@
+/*
+* Name : Karatsuba Algorithm
+* Description : This program takes in two numbers as input and outputs their product. 
+*  Runs in  O(n ^ (log_3(2)) time where n is the number of digits in the larger number.
+*  Compare that to standard multiplication algorithm taught in school, which is O(n ^ 2).
+*  Isn't really faster unless you are dealing with numbers with a large amount of digits seen in fields such as cryptography. 
+*/
+
+
 #include <iostream>
 #include <string>
 

@@ -94,6 +94,7 @@ std::string karatsuba(std::string X, std::string Y) {
 
 int main() {
     std::string num1, num2;
+    std::cout << "Enter two numbers" << std::endl;
     std::cin >> num1 >> num2;
-    std::cout << karatsuba(num1, num2) << '\n';   
+    std::cout << "Their product is :" << std::endl << karatsuba(num1, num2) << std::endl;   
 }

@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 std::string firstxdigits(std::string s, int x) {
     if (x >= s.length()) return "0";
@@ -94,7 +95,7 @@ std::string karatsuba(std::string X, std::string Y) {
 
 int main() {
     std::string num1, num2;
-    std::cout << "Enter two numbers" << std::endl;
+    std::cout << "Enter two numbers seperated by a space" << std::endl;
     std::cin >> num1 >> num2;
     std::cout << "Their product is :" << std::endl << karatsuba(num1, num2) << std::endl;   
 }
